@@ -1,8 +1,8 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
+baseURL: "https://isuryanarayanan.github.io/blog/"
 title: PaperMod
-copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
+copyright: "© [PaperMod Contributors](https://isuryanarayanan.github.io/blog/graphs/contributors)"
 paginate: 5
 theme: [hugo-PaperMod]
 
@@ -39,7 +39,7 @@ languages:
           url: tags/
           weight: 10
         - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+          url: https://github.com/isuryanarayanan/blog/wiki/
 
   fr:
     languageName: ":fr:"
@@ -81,7 +81,7 @@ languages:
           - name: Blog
             url: posts
           - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+            url: https://github.com/isuryanarayanan/blog/wiki/Features#profile-mode
 
   fa:
     languagedirection: rtl
@@ -110,7 +110,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  description: "Theme PaperMod - https://github.com/isuryanarayanan/blog"
   author: Theme PaperMod
   # author: ["Me", "You"] # multiple authors
 
@@ -157,7 +157,7 @@ params:
   socialIcons:
     - name: github
       title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
+      url: "https://github.com/isuryanarayanan/blog"
     - name: Discord
       title: Join discord community
       url: "https://discord.gg/ahpmTvhVmp"
@@ -169,7 +169,7 @@ params:
       url: "https://ko-fi.com/adityatelange"
 
   editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    URL: "https://github.com/isuryanarayanan/blog/tree/exampleSite/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
